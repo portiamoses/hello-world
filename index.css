@@ -1,0 +1,49 @@
+ul{
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background:linear-gradient(to left, rgb(189, 21, 49) 50%,pink 50%);
+}
+
+li{
+    display: inline;
+}
+li a{
+    display: block;
+     text-align: center;
+     color: white;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+     li{
+        float: right;
+    }
+     li a :hover {
+        background-color: rgb(150, 9, 32);
+    }
+     body{
+        margin: 0;
+        background: linear-gradient(to right, pink 50%,white 50%);
+    }
+
+    
+.container{
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+          }
+#text{
+
+      width: 40%px;
+      height: 60vh;
+}
+.image{
+        margin-top: 5%;
+       width: 50%;
+       height: 80vh;
+       background-image: url('nikki\ mudarris.021.jpg');
+       background-size:unset;
+      }
+
