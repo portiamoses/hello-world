@@ -17,4 +17,3 @@ li a{display: block;
 /*change the link color to #111 on hover */
 li a:hover{background-color: #111;}
 
-contact{background: linear-gradient(left(pink 50% white 50%));}
